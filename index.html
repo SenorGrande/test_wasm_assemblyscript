@@ -1,0 +1,13 @@
+<html>
+    <head>
+        <script>
+            WebAssembly.instantiateStreaming(
+                fetch('optimised.wasm')
+            )
+            .then(obj => {
+                // do stuff!
+                console.log('Not sure what to do now.')
+            });
+        </script>
+    </head>
+</html>
